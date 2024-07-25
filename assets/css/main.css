@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #0b465d 15%, #3e9fb2 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #0b465d 15%, #3e9fb2 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #0b465d 15%, #3e9fb2 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, ##0b465d 15%, #3e9fb2 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,12 +120,12 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #8d768a;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "baskerville";
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1983,7 +1983,7 @@ input, select, textarea {
 			input[type="button"].primary.icon:before,
 			button.primary.icon:before,
 			.button.primary.icon:before {
-				color: #ffffff !important;
+				color: #8f8282 !important;
 			}
 
 /* Form */
@@ -2140,7 +2140,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #ffffff;
+		color: #9c3838;
 	}
 
 	input[type="text"],
