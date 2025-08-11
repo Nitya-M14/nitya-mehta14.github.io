@@ -71,7 +71,9 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
+	<body style="background-image: url('path/to/your/background.jpg');">
+	<!-- Content here -->
+	</body>
 /* Basic */
 
 	@-ms-viewport {
@@ -100,7 +102,7 @@ input, select, textarea {
 
 	body {
 		background-image: url("background.jpg");
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #0b465d 15%, #3e9fb2 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #094a63 15%, #259eb6 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #0b465d 15%, #3e9fb2 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #0b465d 15%, #3e9fb2 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, ##0b465d 15%, #3e9fb2 85%);
