@@ -2364,12 +2364,13 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
-		border-radius: 8px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-	}
+.features .image img {
+	max-width: 145px;   /* smaller width */
+	height: auto;       /* maintain aspect ratio */
+	border-radius: 10px; /* optional: rounded corners */
+	object-fit: cover;  /* keep image aspect ratio */
+  }
+  
 
 		.image img {
 			border-radius: 8px;
@@ -3785,3 +3786,49 @@ input, select, textarea {
 			}
 
 		}
+
+		.skill-bubbles {
+			margin-top: 1rem;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 4px; 
+			justify-content: center; /* center  */
+
+		}
+		
+		.skill-bubbles span {
+			background-color: #c2d6d6;
+			color: #23240c;
+			padding: 4px 8px;
+			border-radius: 4px; 
+			font-size: .80rem; /* smaller text */
+			font-weight: 500;
+			border: 1px solid #ccc;
+			transition: all 0.2s ease-in-out;
+		}
+		
+		.skill-bubbles span:hover {
+			background-color: #007BFF;
+			color: white;
+			border-color: #007BFF;
+			cursor: pointer;
+		}
+		
+		.features li {
+			display: flex;
+			flex-direction: column;  /* stack vertically */
+			align-items: center;     /* center horizontally */
+			text-align: center;      /* center the text */
+			gap: 10px;               /* space between image and text */
+		  }
+		  
+		  .features li .image img {
+			max-width: 120px;        /* optional: control image size */
+			height: auto;
+			display: block;
+		  }
+		  
+		  #ctaaa p {
+			margin: 0.2rem 0;
+		  }
+		  
